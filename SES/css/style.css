@@ -5,6 +5,29 @@ header,
     height: 100%;
 }
 
+.page-middle-banner {
+  background: url(../img/Фон/1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 70px;
+}
+
+.page-middle-banner .opacity {
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 134px 0 137px 0;
+}
+
+.page-middle-banner .opacity h3 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+#registration {
+  border-radius: 12px;
+  color: #fff;
+}
+
 #intro {
     background: url('../img/background/bg.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
