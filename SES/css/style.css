@@ -5,17 +5,31 @@ header,
     height: 100%;
 }
 
-.page-middle-banner {
+#link-1-link:before {
+	display: block;
+	content: "";
+	height: 55px;
+	margin: -55px 0 0;
+}
+
+#banner-1 {
   background: url(../img/Фон/1.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  margin-top: 70px;
 }
+
+#banner-2 {
+  background: url(../img/background/lGqg7pLL2jE.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 
 .page-middle-banner .opacity {
   background: rgba(0,0,0,0.8);
   text-align: center;
-  padding: 134px 0 137px 0;
+  padding: 100px 0 103px 0;
+  overflow-x: hidden;
 }
 
 .page-middle-banner .opacity h3 {
@@ -29,7 +43,7 @@ header,
 }
 
 #intro {
-    background: url('../img/background/bg.jpg')no-repeat center center fixed;
+    background: url('../img/background/ALQfyvYjRzU.jpg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

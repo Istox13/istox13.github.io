@@ -54,7 +54,8 @@
                     <!-- Social Icon  -->
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <button type="button" class="px-3 py-2 btn btn-outline-white waves-effect" id="registration">Записаться</button>
+                            <button type="button" onclick="redirect();" class="px-3 py-1 btn btn-outline-white waves-effect" id="registration">Записаться</button>
+                        </a>
                         </li>
                     </ul>
                 </div>
@@ -81,7 +82,7 @@
 
                           <!-- Description -->
                           <h4 class="white-text my-4">Позвольте нам позоботиться о вас!</h4>
-                          <button type="button" class="btn btn-outline-white">Записаться</button>
+                          <button type="button" onclick="redirect();" class="btn btn-outline-white">Записаться</button>
 
                       </div>
 
@@ -99,12 +100,12 @@
 
   <!--Main layout-->
   <main class="mt-5">
-      <div class="container">
+      <div class="">
         
-            <hr class="py-5" id="info">
 
-            <section class="text-center">
+            <section class="text-center py-5 link-1-link">
                 <div class="container">
+                <hr class="py-5" id="info">
                   <!-- Heading -->
                   <h2 class="mb-5 font-weight-bold">О нас</h2>
   
@@ -122,14 +123,24 @@
       
                   </div>
                   <!--Grid row-->
+                  
+                <hr class="py-5 link-1-link" id="info">
               </div>
             </section>
-  
-            <hr class="my-5 container" id="team">
 
-            
+            <section class="link-1-link" id="team">
+                <div class="page-middle-banner" id="banner-1">
+                    <div class="opacity">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="mb-4 font-weight-bold text-white">Мастера</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section class="py-5 text-center">
+    <section class="py-5 text-center container">
             
                 <div class="py-lg-3 py-2 ">
                     <div class="row barber-grids justify-content-center">
@@ -220,18 +231,28 @@
                 </div>
             </section>
     
-            <hr class="my-5 container" id="amenities">
+            <section class="link-1-link" id="amenities">
+                <div class="page-middle-banner" id="banner-2">
+                    <div class="opacity">
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="mb-4 font-weight-bold text-white">Услуги</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
           <!--Section: Best Features-->
-          <section class="text-center container py-5">
+          <section class="text-center container py-5" id="amenities">
+              <!--hr class="my-5">
 
-              <!-- Heading -->
               <div class="row mb-4">
                     <div class="col">
                         <h2 class="mb-4 font-weight-bold">Услуги</h2>
                     </div>
-                </div>
-
+                </div-->
+                
               <!--Grid row-->
               <div class="row">
 
@@ -313,9 +334,9 @@
           </section>
           <!--Section: Best Features-->
 
-          <hr class="my-5 container" id="portfolio">
 
-<section class="text-center p-5 py-5">
+<section class="text-center p-5 py-5 container">
+      <hr class="my-5 " id="portfolio">
 
       <!-- Heading -->
       <div class="row mb-4">
@@ -382,10 +403,10 @@
 </section> 
   <!-- Grid row -->
 
-          <hr id="contact"  class="py-5 container">
 
           <!--Section: Contact-->
           <section class="container">
+                <hr id="contact"  class="py-5">
             
               <!-- Heading -->
               <h2 class="mb-5 font-weight-bold text-center">Контакты</h2>
@@ -489,6 +510,7 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
   
 </body>
 
