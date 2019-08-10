@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     $(window).resize(function(){
       var windowWidth = $('body').innerWidth();
-      if(windowWidth < 600){$("#CompanyName").removeClass('display-3').addClass('display-4');}
+      if(windowWidth < 480){$("#CompanyName").removeClass('display-3').addClass('display-4');}
       else{$("#CompanyName").removeClass('display-4').addClass('display-3');}
     });
   });
