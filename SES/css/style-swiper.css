@@ -42,7 +42,7 @@ margin-right: 0;
     }
 }
 
-@media (min-width: 280px) and (max-width: 360px) {
+@media (min-width: 0px) and (max-width: 360px) {
     .swiper-slide .imgBx {
         width: 250px
     }
