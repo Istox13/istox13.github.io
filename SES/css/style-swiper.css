@@ -1,16 +1,17 @@
 body {
 background: #fff;
 font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-font-size: 14px;
 color:#000;
 margin: 0;
 padding: 0;
 }
 
 .swiper-container {
-width: 100%;
-padding-top: 50px;
-padding-bottom: 50px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .swiper-slide {
@@ -18,6 +19,8 @@ background-position: center;
 background-size: cover;
 width: 400px;
 height: 100%;
+margin-left: 0;
+margin-right: 0;
 }
 
 .swiper-slide .imgBx {
@@ -28,4 +31,22 @@ height: 100%;
 
 .swiper-slide .imgBx img {
     width: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 480px) {
+    .swiper-slide .imgBx {
+        width: 300px
+    }
+    .swiper-slide {
+        width: 300px
+    }
+}
+
+@media (min-width: 280px) and (max-width: 360px) {
+    .swiper-slide .imgBx {
+        width: 250px
+    }
+    .swiper-slide {
+        width: 250px
+    }
 }
