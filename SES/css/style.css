@@ -20,12 +20,12 @@ header,
 
 
 #banner-1 {
-  background: url(../img/Фон/1.jpg) no-repeat center;
+  background: url(../img/background/minBanner-1.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
 #banner-2 {
-  background: url(../img/background/lGqg7pLL2jE.jpg) no-repeat center;
+  background: url(../img/background/minBanner-2.jpeg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -47,7 +47,7 @@ header,
 }
 
 #intro {
-    background: url('../img/background/ALQfyvYjRzU.jpg')no-repeat center center fixed;
+    background: url('../img/background/mainBanner.jpeg')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
