@@ -5,6 +5,9 @@ header,
     height: 100%;
 }
 
+.over-hidden {
+ overflow:hidden;
+}
 
 .rgba-black-strong, .rgba-black-strong:after {
   background-color: rgba(0,0,0,.55);
