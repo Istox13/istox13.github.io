@@ -5,9 +5,7 @@ header,
     height: 100%;
 }
 
-.over-hidden {
- overflow:hidden;
-}
+
 
 .rgba-black-strong, .rgba-black-strong:after {
   background-color: rgba(0,0,0,.55);
@@ -25,12 +23,10 @@ header,
 #banner-1 {
   background: url(../img/background/minBanner-1.jpeg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 #banner-2 {
   background: url(../img/background/minBanner-2.jpeg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
 }
 .page-middle-banner .opacity {
   background: rgba(0,0,0,0.8);
@@ -50,7 +46,7 @@ header,
 }
 
 #intro {
-    background: url('../img/background/mainBanner.jpeg')no-repeat center center fixed;
+    background: url('../img/background/mainBanner.jpeg')no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
