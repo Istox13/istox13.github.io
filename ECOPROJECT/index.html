@@ -17,7 +17,7 @@
 </head>
 
 <body>
-
+  <div id="mainsec"></div>
   <!-- Main navigation -->
 <header>
   <!--Navbar-->
@@ -28,13 +28,22 @@
         aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#mainsec">Главная </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#aboutus">О нас </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#addsv">Добавление свалки </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#faq">FAQ </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Карта</a>
+            <a class="nav-link" href="/map">Карта</a>
           </li>
         </ul>
         
@@ -71,22 +80,23 @@
 <!-- Main navigation -->
 
 <div class="container my-5 py-5 screen">
-  
 
   <!--Section: Content-->
-  <section class="text-center px-md-5 mx-md-5 dark-grey-text">
+  <section class="text-center px-md-5 mx-md-5 dark-grey-text" id="aboutus">
 
-
+    <div class="row justify-content-center">
+      <div class="col">
+        <h2 class="font-weight-bold pb-5 wow fadeIn " data-wow-delay="0.3s">О нас</h2>
+      </div>
+    </div>
 
     <!--Grid row-->
     <div class="row d-flex justify-content-center">
 
-      <h2 class="font-weight-bold pb-4 wow fadeIn " data-wow-delay="0.3s">Проблема свалок</h2>
-
       <!--Grid column-->
       <div class="col-lg-10">
 
-        <p class="h5 wow fadeIn " data-wow-delay="0.3s">В данный момент на территории Российской Федерации актуальна проблема большого количества несонкционированных свалок. Которые в свою очередь отрицательно влияют на экологию, загрезняя и отравляя почву и воздух. Влияя на наше здоровье.</p class="">
+        <p class="h5 wow fadeIn " data-wow-delay="0.3s">Данный сайт создан для регистрирования свалок на территории РФ. Наша команда надеется что ECOMAP поможет увидеть что проблема несонкционированных свалок является распространенной и требует решения.</p>
 
       </div>
       <!--Grid column-->
@@ -116,11 +126,11 @@
 
       </div>
       <div class="col-md-5 d-flex align-items-center">
-        <div>
+        <div class="h5 wow fadeInLeft " data-wow-delay="0.3s">
           
-          <h3 class="font-weight-bold mb-4">Material Design Blocks</h3>
+          <h3 class="font-weight-bold mb-4">Проблема свалок</h3>
 
-        	<p>Lorem ipsum dolor sit amet consectetur adip elit. Maiores deleniti explicabo voluptatem quisquam nulla asperiores aspernatur aperiam voluptate et consectetur minima delectus, fugiat eum soluta blanditiis adipisci, velit dolore magnam.</p>
+        	<p>В данный момент на территории Российской Федерации актуальна проблема большого количества несонкционированных свалок. Которые в свою очередь отрицательно влияют на экологию, загрезняя и отравляя почву и воздух. Влияя на наше здоровье.</p>
 
         </div>
       </div>
@@ -128,9 +138,9 @@
 
   </section>
   <!--Section: Content-->
-
-
 </div>
+
+<hr class="pb-5">
 
 <div class="container my-5">
 
@@ -144,13 +154,15 @@
       <div class="col-md-6 col-lg-3 mb-4 text-center">
         <h4 class="h1 font-weight-normal mb-3">
           <span class="d-inline-block count-up" data-from="0" data-to="10000" data-time="2000">10000+</span>
+          <i class="fas fa-file-alt indigo-text"></i>
         </h4>
-        <p class="font-weight-normal text-muted">свалок в РФ</p>
+        <p class="font-weight-normal text-muted">несонкционированных свалок в РФ</p>
       </div>
 
       <div class="col-md-6 col-lg-3 mb-4 text-center">
         <h4 class="h1 font-weight-normal mb-3">
           <span class="d-inline-block count1" data-from="0" data-to="227" data-time="2000">227</span>
+          <i class="fas fa-layer-group indigo-text"></i>
         </h4>
         <p class="font-weight-normal text-muted">неустраненных свалок в Смоленской области</p>
       </div>
@@ -158,6 +170,7 @@
       <div class="col-md-6 col-lg-3 mb-4 text-center">
         <h4 class="h1 font-weight-normal mb-3">
           <span class="d-inline-block count2" data-from="0" data-to="113" data-time="2000">113</span>
+          <i class="fas fa-pencil-ruler indigo-text"></i>
         </h4>
         <p class="font-weight-normal text-muted">устраненных свалок в Смоленской области</p>
       </div>
@@ -174,44 +187,35 @@
 <div class="container my-5 py-5 px-4 px-lg-0">
 
   <!-- Section -->
-  <section>
+  <section id="addsv">
     
     
-    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Our History</h3>
+    <h3 class="font-weight-bold text-center dark-grey-text pb-2">Добавление свалки</h3>
 
-    <p class="lead text-center text-muted pt-2 mb-5">MDB founded to help startups, and it still shapes the way we work today.</p>
+    <p class="lead text-center text-muted pt-2 mb-5">Для добавления свалки нужно прислать письмо на <a href="mailto:ecomap.add@ya.ru">электронную почту ecomap.add@ya.ru</a> удволитворяещее следуещим правилам:</p>
     
     <div class="row">
       <div class="col-lg-8 mx-auto">
 
         <ol class="timeline">
           <li class="timeline-element">
-            <h5 class="font-weight-bold dark-grey-text mb-3">Launched our website</h5>
-            <p class="grey-text font-small"><time datetime="2017-02-08">08 Feb 2017</time></p>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
-              Explicabo amet ipsum fugiat aliquam alias.</p>
+            <h5 class="font-weight-bold dark-grey-text mb-3">Тема письма</h5>
+            <p class="text-muted">В теме письма нужно написать ecomapadd и указать город </p>
           </li>
 
           <li class="timeline-element">
-            <h5 class="font-weight-bold dark-grey-text mb-3">Got the first 100 users</h5>
-            <p class="grey-text font-small"><time datetime="2017-08-17">17 Aug 2017</time></p>
-            <p><img class="img-fluid z-depth-1-half rounded" src="https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20(6).jpg" alt="..."></p>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
-              Explicabo amet ipsum fugiat aliquam alias.</p>
+            <h5 class="font-weight-bold dark-grey-text mb-3">Текст письма</h5>
+            <p class="text-muted">В тескте письма обязательно указать максимально подробное местоположение (желательно координаты места) свалки и по желанию дополнительную информацию</p>
           </li>
 
           <li class="timeline-element">
-            <h5 class="font-weight-bold dark-grey-text mb-3">Raised $1.4 million in seed funding</h5>
-            <p class="grey-text font-small"><time datetime="2018-03-26">26 Mar 2019</time></p>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
-              Explicabo amet ipsum fugiat aliquam alias.</p>
+            <h5 class="font-weight-bold dark-grey-text mb-3">Вложения</h5>
+            <p class="text-muted">Во вложения нужно прикрепить несколько фотографий показывающих размеры свалки</p>
           </li>
 
           <li class="timeline-element">
-            <h5 class="font-weight-bold dark-grey-text mb-3">Team size increased to 20</h5>
-            <p class="grey-text font-small"><time datetime="2018-04-14">14 Apr 2019</time></p>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam adipisci reiciendis porro natus laudantium similique. 
-              Explicabo amet ipsum fugiat aliquam alias.</p>
+            <h5 class="font-weight-bold dark-grey-text mb-3">Пример письма</h5>
+            <p><img class="img-fluid z-depth-1-half rounded" src="img/simple1.jpg" alt="..."></p>
           </li>
         </ol>
 
@@ -228,14 +232,12 @@
 
 
   <!--Section: Content-->
-  <section>
+  <section id="faq">
 
     <h6 class="font-weight-normal text-uppercase font-small grey-text mb-4 text-center">FAQ</h6>
     <!-- Section heading -->
-    <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">Frequently Asked Questions</h3>
+    <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h3>
     <hr class="w-header">
-    <!-- Section description -->
-    <p class="lead text-muted mx-auto mt-4 pt-2 mb-5 text-center">Got a question? We've got answers. If you have some other questions, see our support center.</p>
 
 		<div class="row">
       <div class="col-md-12 col-lg-10 mx-auto mb-5">
@@ -251,7 +253,7 @@
               <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
                 aria-controls="collapseOne1">
                 <h5 class="black-text font-weight-normal mb-0">
-                  Is this a secure site for purchases? <i class="fas fa-angle-down rotate-icon"></i>
+                  Чем опасны несанкционированные свалки?<i class="fas fa-angle-down rotate-icon"></i>
                 </h5>
               </a>
             </div>
@@ -260,8 +262,7 @@
             <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
               data-parent="#accordionEx">
               <div class="card-body">
-                Absolutely! We work with top payment companies which guarantees your safety and security. All billing information is stored on our payment processing partner which has the most stringent level of certification available in the payments industry.
-              </div>
+                Мусорники в неорганизованных местах вредны для окружающих и природы. Обычно среди отходов попадаются не только быстро разлагающиеся ТБО, металл, стекло или пластик, но и довольно опасные предметы: ртутные лампы; просроченные медикаменты; батарейки; электрические приборы; взрывоопасные вещи. Мусор, который относится к высокому классу опасности, должен утилизироваться особым образом. Его нельзя просто выбросить, важно, чтобы он был уничтожен в соответствии с нормами СанПиН.</div>
             </div>
 
           </div>
@@ -275,7 +276,7 @@
               <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
                 aria-expanded="false" aria-controls="collapseTwo2">
                 <h5 class="black-text font-weight-normal mb-0">
-                  How long are your contracts? <i class="fas fa-angle-down rotate-icon"></i>
+                  Как государство борется с нарушителями порядка?<i class="fas fa-angle-down rotate-icon"></i>
                 </h5>
               </a>
             </div>
@@ -284,7 +285,7 @@
             <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
               data-parent="#accordionEx">
               <div class="card-body">
-              	Currently, we only offer monthly subscription. You can upgrade or cancel your monthly account at any time with no further obligation.
+                Штраф за незаконную свалку мусора – это далеко не самое серьезное наказание, которое может грозить. Лица, которые выбрасывают или складируют отходы в неподходящей для этих целей зоне, будут привлечены к ответственности, установленной статьями КоАП РФ. Однако в некоторых ситуациях, человеку может грозить и возбуждение уголовного дела.
               </div>
             </div>
 
@@ -299,7 +300,7 @@
               <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
                 aria-expanded="false" aria-controls="collapseThree3">
                 <h5 class="black-text font-weight-normal mb-0">
-                  Can I cancel my subscription? <i class="fas fa-angle-down rotate-icon"></i>
+                  Кому жаловаться?<i class="fas fa-angle-down rotate-icon"></i>
                 </h5>
               </a>
             </div>
@@ -308,8 +309,7 @@
             <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
               data-parent="#accordionEx">
               <div class="card-body">
-								You can cancel your subscription anytime in your account. Once the subscription is cancelled, you will not be charged next month. You will continue to have access to your account until your current subscription expires.
-              </div>
+								Ситуаций, влекущих за собой возникновения свалок бытового мусора в неположенном месте, множество. Отсутствие у управляющей компании договора с мусоровывозящей организацией, нежелание жильцов дома или частного сектора вносить дополнительную плату за услугу – это далеко не полный список возможных причин. Уполномоченные следить за экологической обстановкой на вверенном участке органы управления могут проявлять халатность и игнорировать формирование мусорника. Поэтому самих граждан просят проявлять бдительность и при обнаружении несанкционированного мусорного полигона обращаться в: местную администрацию; департамент ЖКХ; Росприроднадзор; отделы экологического контроля; прокуратуру или полицию.</div>
             </div>
 
           </div>
@@ -323,7 +323,7 @@
               <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree4"
                 aria-expanded="false" aria-controls="collapseThree4">
                 <h5 class="black-text font-weight-normal mb-0">
-                  Can I request refund? <i class="fas fa-angle-down rotate-icon"></i>
+                  Как правильно составить жалобу?<i class="fas fa-angle-down rotate-icon"></i>
                 </h5>
               </a>
             </div>
@@ -332,13 +332,25 @@
             <div id="collapseThree4" class="collapse" role="tabpanel" aria-labelledby="headingThree4"
               data-parent="#accordionEx">
               <div class="card-body">
-								Unfortunately, not. We do not issue full or partial refunds for any reason.    
+                <p>Если вы заметили свалку строительного или бытового мусора, необходимо незамедлительно сообщить о ней. Алгоритм действий следующий.</p>
+								<ol>
+                  <li>Визуально оцениваются приблизительные размеры свалки.</li>
+                  <li>Определяется местонахождение мусорника – желательно зафиксировать точные координаты.</li>
+                  <li>С разных ракурсов фотографируют отходы.</li>
+                  <li>Узнают в местной администрации, кто несет ответственность за данную территорию.</li>
+                  <li>Составляют жалобу по плану:
+                    <ul>
+                      <li>подробно описать ситуацию;</li>
+                      <li>приложить фото и скриншот с координатами, если это возможно;</li>
+                      <li>указать личные данные и контакты.</li>
+                    </ul>
+                  </li>
+                </ol>
+                <p>Жалобы обычно отправляют на электронную почту соответствующему органу власти. В ответ приходит уведомление, что обращение принято и ему присвоен индивидуальный номер. О принятых мерах гражданина также оповещают по электронной почте. С жалобой можно обратиться к главе администрации лично, записавшись на прием.</p>
               </div>
             </div>
 
           </div>
-          <!-- Accordion card -->
-
         </div>
         <!-- Accordion wrapper -->
         
@@ -353,60 +365,15 @@
 
 <!-- Footer -->
 <footer class="page-footer font-small cyan darken-3">
- 
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center">
-
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Instagram-->
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          <!--Pinterest-->
-          <a class="pin-ic">
-            <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
-          </a>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row-->
-
-  </div>
-  <!-- Footer Elements -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href=""> IstoxGroup</a>
   </div>
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
-
   <!-- SCRIPTS -->
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -419,6 +386,18 @@
   <script src="js/addons-pro/stepper.min.js"></script>
   <script src="https://kit.fontawesome.com/8964241ff1.js" crossorigin="anonymous"></script>
   <script src="js/script.js"></script>
+
+
+  <script type="text/javascript">
+   $(document).ready(function(){
+      $("#navbarSupportedContent").on("click","a", function (event) {
+          event.preventDefault();
+          var id  = $(this).attr('href'),
+              top = $(id).offset().top;
+          $('body,html').animate({scrollTop: top}, 1500);
+      });
+  });
+  </script>
 </body>
 
 </html>
