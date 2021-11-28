@@ -1,4 +1,3 @@
-g
-[submodule "works/ses"]
+[submodule "works/ses-work"]
 	path = works/ses-work
 	url = https://github.com/Istox13/ses.git
