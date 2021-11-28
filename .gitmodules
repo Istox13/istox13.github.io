@@ -1,0 +1,4 @@
+g
+[submodule "works/ses"]
+	path = works/ses
+	url = https://github.com/Istox13/ses.git
